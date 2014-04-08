@@ -1,0 +1,21 @@
+body {
+  font-family: "Oxygen", sans-serif;
+}
+
+blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 15px;
+}
+
+footer {
+  margin-top: 200px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 70%;
+}
