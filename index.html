@@ -15,7 +15,6 @@
     // HTML5 Element Shims for <IE8
     document.createElement("main");
     document.createElement("header");
-    document.createElement("figure");
     document.createElement("footer");
   </script>
 
@@ -25,7 +24,7 @@
   <div class="wrapper">
 
     <header>
-      <h1>these websites are bunk</h1>
+      <h1>these websites are bad and they should feel bad</h1>
     </header>
 
     <main>
@@ -41,10 +40,17 @@
           <p>Hacker News is notorious as an echo chamber for ignorant and divisive views. It is your humble maintainer's opinion that there are far better news sources out there.</p>
         </li>
       </ul>
+
+      <h2>how to block</h2>
+      <p>This command appends list.txt to your /etc/hosts file. To prevent you from seeing them.</p>
+      <code>
+        curl -fsSL https://raw.githubusercontent.com/llkats/the-list/master/list.txt >> /etc/hosts
+      </code>
+      <p>The flags are there to handle error cases more gracefully and safely handle redirects. See man curl for a more comprehensive explanation.</p>
     </main>
 
     <footer>
-      <p>Please add to The List by submitting <a href="https://github.com/llkats/the-list/">a pull request here</a>.</p>
+      <p>Please improve The List by submitting <a href="https://github.com/llkats/the-list/">a pull request here</a>.</p>
       <p>&copy; 2014, all rights reserved.</p>
     </footer>
 
