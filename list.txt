@@ -1,3 +1,4 @@
 127.0.0.1   valleywag.gawker.com
 127.0.0.1   news.ycombinator.com
 127.0.0.1   ycombinator.com
+127.0.0.1   facespac.es
