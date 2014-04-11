@@ -28,25 +28,48 @@
     </header>
 
     <main>
-      <h2>why block these sites?</h2>
-      <ul>
-        <li>
+      <section>
+        <h2>why block these sites?</h2>
+        <article>
           <h3>Valleywag</h3>
-          <blockquote>&ldquo;On March 4, 2014, Gawker's tech-focused subsidiary Valleywag published &ldquo;Startup Flying Dateable Women to San Francisco Like It's Imperial Japan,&rdquo; stating, &ldquo;A startup called The Dating Ring has taken its inspiration from an unlikely source: the &lsquo;comfort women&rsquo; of World War II.&rdquo;</blockquote>
-          <p><a href="http://modelviewculture.com/pieces/gawking-at-rape-culture">more at Model View Culture</a></p>
-        </li>
-        <li>
+          <figure>
+            <blockquote>
+              <p>&ldquo;On March 4, 2014, Gawker's tech-focused subsidiary Valleywag published &ldquo;Startup Flying Dateable Women to San Francisco Like It's Imperial Japan,&rdquo; stating, &ldquo;A startup called The Dating Ring has taken its inspiration from an unlikely source: the &lsquo;comfort women&rsquo; of World War II.&rdquo;</p>
+            </blockquote>
+            <figcaption>
+              <p>
+                <cite><a href="http://modelviewculture.com/pieces/gawking-at-rape-culture">Gawking At Rape Culture</a></cite> by Kiriko Kikuchi, Mike Kim, and Dorothy Kim, <cite><a href="http://modelviewculture.com/">Model View Culture</a>, April 7th, 2014</cite>
+              </p>
+            </figcaption>
+          </figure>
+        </article>
+        <article>
           <h3>Hacker News</h3>
-          <p>Hacker News is notorious as an echo chamber for ignorant and divisive views. It is your humble maintainer's opinion that there are far better news sources out there.</p>
-        </li>
-      </ul>
+          <p>Hacker News is a popular news aggregation site that is often unfriendly towards views that don't fall in line with heteronormative patriarchy. Its moderation standards are entirely opaque and beyond reproach.</p>
+          <figure>
+            <blockquote>
+              <p>The mechanisms and implementation of moderation are completely shrouded from us. The subtle tools of content and conversation massaging unknown.</p>
 
-      <h2>how to block</h2>
-      <p>This command appends list.txt to your /etc/hosts file. To prevent you from seeing them.</p>
-      <code>
-        curl -fsSL https://raw.githubusercontent.com/llkats/the-list/master/list.txt >> /etc/hosts
-      </code>
-      <p>The flags are there to handle error cases more gracefully and safely handle redirects. See man curl for a more comprehensive explanation.</p>
+              <p>People are hellbanned for what often seems like capricious, abuse-of-power reasons. People are slowbanned at varying levels of forced aggravation, presumably to encourage them, passive-aggressively, to get lost.</p>
+            </blockquote>
+            <figcaption>
+              <p><cite><a href="http://dennisforbes.ca/index.php/2014/03/31/the-rise-of-hacker-news-is-bad-news-for-the-tech-world/">The Rise of Hacker News Is Bad News for the Tech World</a></cite> by Dennis Forbes, <a href="http://dennisforbes.ca/">Dennis Forbes&hellip; Professional</a>, March 31st, 2014</p>
+            </figcaption>
+          </figure>
+          <h4>Alternatives</h4>
+          <p><strong><a href="https://lobste.rs/">lobste.rs</a></strong> &mdash; Featuring an entirely open source, transparent moderation policy, and small but active community, <a href="https://lobste.rs/">lobste.rs</a> is my go-to Hacker News replacement.</p>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <h2>how to block</h2>
+          <p>the-list is easily added to your own hosts file by curling the-lists's text file.</p>
+          <p>By running this command in your terminal, the contents of <a href="https://raw.githubusercontent.com/llkats/the-list/master/list.txt">list.txt</a> will be appended to your <code>/etc/hosts</code> file.</p>
+          <p><code>curl -fsSL https://raw.githubusercontent.com/llkats/the-list/master/list.txt >> /etc/hosts</code></p>
+          <p>The flags are there to handle error cases more gracefully and safely handle redirects. See man curl for a more comprehensive explanation.</p>
+        </article>
+      </section>
     </main>
 
     <footer>
