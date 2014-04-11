@@ -3,17 +3,19 @@ the-list
 
 a list of terrible websites to avoid
 
+## Purpose
+
+**the-list** is not a list of sites to block for productivity or due to annoyance. It is a list of sites that demonstrate a lack of ethical or political responsibility in their content and/or public presence. These sites might show disdain towards social issues such as minority rights, act with complete disrespect towards the disenfranchised, or exploit a group for clickbait.
+
+The goal of **the-list** to allow people to easily avoid ethically or politically repugnant sites by adding their URLs to their hosts files. Denying a site a pageview is somewhat akin to avoiding shopping at a store with terrible management.
+
 ## Info
 
 Hosts file explanation to be added. [http://en.wikipedia.org/wiki/Hosts_(file)](http://en.wikipedia.org/wiki/Hosts_(file))
 
-## Motives
-
-Avoid ethically or politically repugnant websites by adding them to your hosts file. Denying a site a pageview is somewhat akin to avoiding shopping at a store with terrible management. Additionally, it'll free your brain up from having to view potentially awful content.
-
 ## Install
 
-the-list is easily added to your own hosts file by curling the-lists's text file.
+the-list is easily added to your own hosts file by curling **the-lists**'s text file.
 
 By running this command in your terminal, the contents of [`list.txt`](https://raw.githubusercontent.com/llkats/the-list/master/list.txt)
 will be appended to your `/etc/hosts` file.
@@ -27,7 +29,7 @@ The flags are there to handle error cases more gracefully and safely handle redi
 
 ## Pull Request Guidelines
 
-Additions to the content or style of the-list are gratefully received. If suggesting a new site to be blocked, please update `index.html` with reference links and text explaining the motivations behind why a site should be blocked, as well as alternative resources in the case of news outlets.
+Additions to the content or style of the-list are gratefully received. If suggesting a new site to be blocked, please update `index.html` on both the `master` and the `gh-pages` branches with reference links and text explaining the motivations behind why a site should be blocked, as well as alternative resources for content.
 
 ## Inspirations
 
