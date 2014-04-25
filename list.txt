@@ -2,3 +2,4 @@
 127.0.0.1   news.ycombinator.com
 127.0.0.1   ycombinator.com
 127.0.0.1   codebabes.com
+127.0.0.1   hottechtoday.com
